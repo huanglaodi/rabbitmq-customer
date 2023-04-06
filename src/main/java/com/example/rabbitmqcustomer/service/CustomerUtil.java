@@ -34,4 +34,9 @@ public class CustomerUtil {
         System.out.println("topic.woman收到消息  : " + testMessage.toString());
     }
 
+
+    public static void main(String[] args) {
+        System.out.println("");
+    }
+
 }
