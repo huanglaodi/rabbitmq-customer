@@ -8,3 +8,20 @@ spring:
     port: 5672
     username: guest
     password: guest
+
+
+#datesource   mysql
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/huangyan?&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+
+
+#sql打印
+logging:
+  level:
+    com:
+      example:
+        rabbitmqcustomer:
+          mapper: DEBUG

@@ -1,9 +1,11 @@
 package com.example.rabbitmqcustomer;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@MapperScan("com.example.rabbitmqcustomer")
 public class RabbitmqCustomerApplication {
 
     public static void main(String[] args) {
