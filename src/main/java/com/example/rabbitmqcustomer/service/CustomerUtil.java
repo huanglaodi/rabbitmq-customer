@@ -10,7 +10,7 @@ import java.util.Map;
 //@RabbitListener(queues = "TestDirectQueue")//监听的队列名称 TestDirectQueue
 public class CustomerUtil {
 
-    @RabbitHandler
+ /*  @RabbitHandler
     @RabbitListener(queues = "TestDirectQueue")//监听的队列名称 TestDirectQueue
     public void process(Map testMessage) {
         System.out.println("DirectReceiver消费者1收到消息  : " + testMessage.toString());
@@ -20,7 +20,7 @@ public class CustomerUtil {
     @RabbitListener(queues = "TestDirectQueue")//监听的队列名称 TestDirectQueue
     public void process2(Map testMessage) {
         System.out.println("DirectReceiver消费者2收到消息  : " + testMessage.toString());
-    }
+    }*/
 
     @RabbitHandler
     @RabbitListener(queues = "topic.man")//监听的队列名称 topic.man
