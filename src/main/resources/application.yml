@@ -17,6 +17,22 @@ spring:
     username: user
     password: 123456
 
+  application:
+    #应用名称
+    name: customer
+    cloud:
+      nacos:
+        discovery:
+          #nacos地址
+          server-addr: 127.0.0.1:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        #公开所有端点
+        include: '*'
+
 
 #sql打印
 logging:
