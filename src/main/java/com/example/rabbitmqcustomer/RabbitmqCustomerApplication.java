@@ -9,7 +9,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @MapperScan("com.example.rabbitmqcustomer")
 @EnableDiscoveryClient
 public class RabbitmqCustomerApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(RabbitmqCustomerApplication.class, args);
     }
