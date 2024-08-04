@@ -31,7 +31,7 @@ public class CustomerUtil {
     @RabbitHandler
     @RabbitListener(queues = "topic.woman")//监听的队列名称 topic.woman
     public void womanListener(Map testMessage) {
-        System.out.println("topic.woman收到消息  : " + testMessage.toString());
+        System.out.println("topic.woman收到消息: " + testMessage.toString());
     }
 
 
